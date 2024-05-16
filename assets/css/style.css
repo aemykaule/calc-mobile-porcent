@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(185, 41%, 84%);
+}
+.header{
+    display: flex;
+    width: 90vw;
+    margin-top: 100px;
+    color: hsl(186, 14%, 43%);
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    width: 30%;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+h3{
+    width: 15%;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.money{
+    text-align: right;
+    color:  hsl(172, 67%, 45%);
+    font-size: 32px;;
+    margin-left: 180px;
+}
+.tatu{
+    color:  hsl(184, 14%, 56%);
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+p{
+    width: 30%;
+    text-align: right;
+}
+.ana{
+    text-align: center;
+    margin-left: 15px;
+}
+.main .linha00 input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(185, 41%, 84%);
+    margin-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    margin-left: 12px;
+    color: antiquewhite;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+}
+.main .linha00 input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.main .linha00 input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+.footer{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 32px;
+    width: 100vw;
+    height: 100vh;
+}
+.linha01,
+.linha02,
+.linha03{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .linha06 input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(185, 41%, 84%);
+    margin-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    margin-left: 12px;
+    color: antiquewhite;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+}
+.footer .linha06 input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.footer .linha06 input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+button{
+    width: 155px;
+    height: 48px;
+    border: none;
+    border-radius: 5%;
+    font-size: 24px;
+    font-weight: bolder;
+    color: hsl(189, 41%, 97%);
+    background-color: hsl(183, 100%, 15%);
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.raiva{
+        width: 155px;
+        height: 48px;
+        margin-right: 2px;
+        background-color: hsl(185, 41%, 84%);
+        color: hsl(186, 14%, 43%);
+        font-size: 24px;
+}
+.linha05{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.RESET{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    margin-left: 22px;
+    font-size: 20px;
+    height: 48px;
+    width: 248.4px;
+    border: none;
+}
+.linha07{
+    background-color:  hsl(183, 100%, 15%);
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 326.4px;
+    height: 242.4px;
+    padding: 14px;
+}
+@media screen and (min-width: 600px ){
+    .header{
+        width: 30vw;
+    }
+    .main input{
+        width: 30vw;
+    }
+    button{
+        width: 110px;
+    }
+    .custom,
+    .igual{
+        width: 223px;
+    }
+}
